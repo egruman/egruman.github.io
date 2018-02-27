@@ -1,0 +1,123 @@
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/risestarhand" rel="stylesheet" type="text/css"/>
+	<title>Ethan Gruman</title>
+	<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+	<script>
+		function hide() {
+		    var x = document.getElementById("BE");
+		    var y = document.getElementById("BEbutt");
+		    if (x.style.display === "block") {
+		       x.style.display = "none";
+		        y.textContent="more"
+		    } else {
+		         x.style.display = "block";
+		        y.textContent="less"
+		    }
+		    
+		}
+	</script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+		<ul>
+			<text>
+				<h1 id="title">Ethan Gruman</h1>
+					<br>
+
+				<h2 id="title">About me</h2>
+			</text>
+			
+			| <li><a href="#About">About</a></li>|
+			<li><a href="#Projects">Projects</a></li>|
+			<li><a href="#followbuttons">Connect</a></li>|
+			
+		</ul>
+	
+
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+	
+
+	<div id="About">
+		<br><br><br><br><br><br>
+		<div id="welcome">
+		   	 <h1>About Me</h1>
+		    	<p>I have always been enthusiastic about technology, and have been motivated to make some real change.  Right now I'm studying mathethematics and computer science at Carnegie Mellon University.  I'm currently trying to figure out my future, so check out my past!</p>
+		</div>
+	</div>
+
+<div id="Projects">
+	<br><br><br><br><br><br>
+    <div id="about">
+   	 <h1>Past and Current Projects</h1>
+	<ul>
+		<li> <img id="be_img" src="icons/ethanlogo.png"> Behavioral Evolution Simulator- Neural Evolution Simulation
+		<button id="BEbutt" onclick="hide()">more</button>
+		<div id="BE"><p>Behavioral evolution simulate an environment in which natural selection is favored.  Creatures are started with random behavioral traits (as genetic information) which can mutate as it reproduces.  Those most successful at survival/ resource procurement will reproduce more frequently and so population will evolve to have the most beneficial behavioral traits.
+		Behavioral traits are represented as a string of characters, which each stand for a specific condition (lower case means negation of that condition).  They are then followed by a number which stands for the action to be taken, given that all the conditions are met.</p></div>
+		</li>
+		<li><img id="swords" src="icons/swords.png"> Tribal Wars - Medieval Themed RTS <p>More about this project coming soon!</p></li>
+		<li><img id="zhong1" src="icons/zhong1.png">Study Guide - Quiz Generation Using Spaced Repetition <p>More about this project coming soon!</p></li>
+
+	</ul>
+
+	</div>
+	</div>
+
+
+
+
+<div id="followbuttons">
+        
+<h1> Connect with me!</h1>
+
+    <!-- Email -->
+    <a href="mailto:ethan2065@gmail.com;Subject=Business or Friendship Inquiry &amp">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+    </a>
+ 
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/ethan.gruman" target="_blank">
+        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-128.png" alt="Facebook" />
+    </a>
+    
+    <!-- Google+ -->
+    <a href="https://plus.google.com/u/1/117870207958873287133" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+    </a>
+
+    <!-- Linkedin -->
+    <a href="www.linkedin.com/in/ethan-gruman-61a93477" target="_blank">
+        <img src="https://image.freepik.com/free-icon/linkedin-logo-ios-7-interface-symbol_318-33633.jpg" alt="Linkedin" />
+    </a>
+
+    <!-- Github -->
+    <a href="https://github.com/egruman" target="_blank">
+        <img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="Github" />
+    </a>
+
+	<!-- Youtube -->
+ <!--    <a href="https://www.youtube.com/subscribe/elevate" target="_blank">
+        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-128.png" alt="Youtube" />
+    </a>
+ -->
+    
+             
+    <!-- Twitter -->
+    <!-- <a href="https://twitter.com/follow/elevate" target="_blank">
+        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter" />
+    </a> -->
+    
+
+</div>
+
+</body>
+</html>
